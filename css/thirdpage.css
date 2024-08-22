@@ -1,0 +1,30 @@
+/*#cv{
+    display: absolute;
+    font-size: 20px;
+    color: orangered;
+    font-weight: 600; 
+    text-shadow: 0 0 10px; 
+    transform: translate(0px,-30px);
+  
+  
+  }*/
+  
+   
+   
+  /*.page-cv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    +background:linear-gradient(to bottom,black,rgb(201, 201, 201));
+    padding: 37px 12% 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.901);
+    gap: 3em;
+   
+  }/*
+  
+  
+  
+ 
