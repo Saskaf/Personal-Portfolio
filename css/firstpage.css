@@ -34,23 +34,8 @@
     border: 1px solid rgb(0, 0, 0);
     object-fit: cover;
   }
-  .spanto{
+ .spanto{
     color: aqua;
     text-shadow: 0 0 25px;
-    opacity: 0;
-    animation: apparireScomparire 5s infinite;
-    transition: 0.3s ease;
-  }
-  @keyframes apparireScomparire{
-    0%{
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-    }
-  
-  }
+ }
   
