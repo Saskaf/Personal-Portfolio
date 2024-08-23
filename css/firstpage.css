@@ -30,8 +30,9 @@
   }
   .img-page img{
     border-radius: 50%;
-    width: 400px;
+    width: 300px;
     border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 0 15px;
     object-fit: cover;
   }
  .spanto{
