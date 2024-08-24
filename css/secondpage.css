@@ -4,11 +4,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12% 8% 10%;
-    gap: 10em;
-    margin-bottom: 0;
-    border-bottom: 1px solid rgb(255, 255, 255);
-    border-top: 1px solid rgb(255, 255, 255);
+    flex-direction: column;
+    width: 100%;
+    padding: 12% 10% 3% 10%;
+    gap: 4em;
+    margin-left: auto;
+    margin-right: auto;
    
    }
    #header-cv img{
@@ -16,9 +17,9 @@
     border-radius: 50%;
     border: 1px solid white;
     width: 25px;
-    float: inline-start;
-    margin-right: 15px;
-    margin-top: 6px;
+   position: relative;
+    margin-left: 15px;
+    margin-top: 9px;
     color: orangered;
     box-shadow: 0 0 15px;
     object-fit: cover;
@@ -31,39 +32,68 @@
     letter-spacing: 1em;
     line-height: 2em;
     font-size: 18px;
-    margin-left: 100px;
+    text-align: center;
     }
     #header-cv2 h3{
       color: orangered !important;
 
     }
     #header-cv2 a{
+      text-align: center;
       color: white;
       text-decoration: underline;
     }
     #header-cv2 a:hover{
-      
       color: orangered;
     }
     #header-cv2 span{
-      color: aqua;
+      color: rgb(255, 255, 255);
       font-size: 30px;
       font-weight: 500;
       text-shadow: 0 0 25px;
     }
-   .img-page2 img{
-    width: 250px !important;
-    height: 300px !important;
-    border-radius: 50% ;
-    border: 1px solid white;
-    color: rgb(255, 255, 255) !important;
-    box-shadow: 0 0 10px !important;
+  
+   .input-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+   }
+
+.contact-me{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+   .input-box input{
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    padding: 5px 3px;
     object-fit: cover;
-    transform: translate(100px,0px) !important;
-    transform: none ;
-   
    }
   
-   
+   .section-title{
+    color: rgb(255, 255, 255);
+      font-size: 2rem;
+      font-weight: 500;
+      text-shadow: 0 0 25px;
+   }
+   .section-title:hover{
+    color: orangered;
+   }
+   .btn{
+    background-color: white;
+    color: black;
+    font-size: 1.2em;
+    padding: 5px 8px;
+    border-radius: 2rem;
+    transition: 0.3s ease;
+   }
+   .btn:hover{
+    background-color: orangered;
+    color: white;
+    box-shadow: 0 0 15px;
 
-  
+   }
